@@ -1,0 +1,1 @@
+export { todoSchema as todos } from './todo-model';
