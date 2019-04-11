@@ -65,7 +65,7 @@ export const deleteTodo = async (req, res) => {
     return res.status('400').json({
       status: 400,
       success: false,
-      message: 'Record not found'
+      message: 'Records not found'
     });
   }
   catch(dbError) {
